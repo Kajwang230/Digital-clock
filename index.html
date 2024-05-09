@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+#time {
+    background-color: purple;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    border: 5px double white;
+    border-radius: 50px;
+    font-weight: bold;
+    text-shadow: 1px 1px red;
+    box-shadow: -3px 8px 7px 5px #25DACB,
+                -10px 3px 3px 3px blue,
+                4px 4px 4px 8px yellow,
+                5px 5px 5px 10px pink;
+    margin-top: 30px;
+}
+p {
+    background-color: blue;
+    color: yellow;
+    font-size: 12px;
+    text-align: center;
+    border: 5px double white;
+    border-radius: 50px;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+}
+</div>
+</body>
+</html>
+<div id="time"></div><br>
+<p>Created with Kajwang by prembabu kashyap</p>
+<script>
+var myTime = setInterval(timer, 1000);
+
+function timer() {
+    var date = new Date();
+    document.getElementById("time").innerHTML = date.toLocaleTimeString();
+}
+</script>
+</body>
+</html>
